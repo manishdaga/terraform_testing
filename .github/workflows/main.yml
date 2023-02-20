@@ -37,8 +37,6 @@ jobs:
       - name: Get changed files
         id: changed-files
         run: |
-          echo "Changed files:"
-          git diff --name-only ${{ github.event.before }} ${{ github.event.after }}
           echo "::set-output name=files::$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }})"
 
       # - name: Get changed files
@@ -128,3 +126,4 @@ jobs:
       - name: Terraform Apply
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         run: terraform apply -auto-approve -var="file_change=${{ steps.changed-files.outputs.files }}"
+

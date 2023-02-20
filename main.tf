@@ -1,6 +1,6 @@
 variable "file_change" {
-  type    = list(string)
-  default = []
+  type    = string
+  default = ""
 }
 resource "null_resource" "run_glue_job" {
   provisioner "local-exec" {

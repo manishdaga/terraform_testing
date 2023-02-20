@@ -14,5 +14,5 @@ jobs:
       with:
         args: --follow-symlinks --exclude '.git*/*'
       env:
-        AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+        AWS_S3_BUCKET: ${{ secrets.AWS_BUCKET_NAME }}
         DEST_DIR: 'scripts'

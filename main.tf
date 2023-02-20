@@ -1,5 +1,5 @@
 resource "aws_ssm_parameter" "foo" {
-  name  =  var.files
+  name  =  var.file_change
   type  = "String"
   value = "barr"
 }

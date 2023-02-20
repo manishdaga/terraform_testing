@@ -8,7 +8,7 @@
     "password": "admin12345"
   },
   "schema_name": {"testing_database":"testing_database"},
-  "database_name": ["testing_database","make dsss"],
+  "database_name": ["testing_database","make dsssds"],
   "table_include": {"testing_database":["all"]},
   "table_exclude": {},
   "dms_schema_rename_flag": false,

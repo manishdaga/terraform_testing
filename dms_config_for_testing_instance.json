@@ -9,7 +9,7 @@
   },
   "schema_name": {"testing_database":"testing_database"},
   "database_name": ["testing_database"],
-  "table_include": {"testing_database_1":["all"]},
+  "table_include": {"testing_database":["all"]},
   "table_exclude": {},
   "dms_schema_rename_flag": false,
   "dms_schema_rename": {},

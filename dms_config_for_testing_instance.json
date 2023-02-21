@@ -9,7 +9,7 @@
   },
   "schema_name": {"testing_database":"testing_database"},
   "database_name": ["testing_database"],
-  "table_include": {"testing_database":["airpot_data"]},
+  "table_include": {"testing_database":["test_data","airpot_data"]},
   "table_exclude": {},
   "dms_schema_rename_flag": false,
   "dms_schema_rename": {},

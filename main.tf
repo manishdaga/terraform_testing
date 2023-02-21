@@ -4,6 +4,6 @@ variable "file_change" {
 }
 resource "null_resource" "run_glue_job" {
   provisioner "local-exec" {
-    command = "aws glue start-job-run --job-name AddTablesToDMS --arguments 'config_file_path=${var.file_change}'"
+    command = "aws glue start-job-run --job-name AddTablesToDMSNEW --arguments 'config_file_path=${var.file_change}'"
   }
 }

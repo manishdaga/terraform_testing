@@ -7,9 +7,9 @@
     "user_name": "admin",
     "password": "admin12345"
   },
-  "schema_name": {"test_dtbase":"test_dtbase"},
-  "database_name": ["test_dtbase"],
-  "table_include": {"test_dtbase":["all"]},
+  "schema_name": {"test_datbase":"test_datbase"},
+  "database_name": ["test_datbase"],
+  "table_include": {"test_datbase":["asn_source_correct_data"]},
   "table_exclude": {},
   "dms_schema_rename_flag": false,
   "dms_schema_rename": {},

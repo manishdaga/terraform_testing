@@ -9,7 +9,7 @@
   },
   "schema_name": {"test_datbase":"test_datbase"},
   "database_name": ["test_datbase"],
-  "table_include": {"test_datbase":["asn_source_correct_data","asn"]},
+  "table_include": {"test_datbase":["asn"]},
   "table_exclude": {},
   "dms_schema_rename_flag": false,
   "dms_schema_rename": {},

@@ -1,0 +1,25 @@
+{
+  "instance_type": "mysql",
+  "instance_name": "database-1",
+  "instance_credentials": {
+    "host": "personal-instance.cvbgkwrrvr7z.ap-northeast-1.rds.amazonaws.com",
+    "port": "3306",
+    "username": "admin",
+    "password": "admin12345"
+  },
+  "schema_name": {"bouncer_web":"bouncer_web","nms_backend":"nms_backend"},
+  "database_name": ["bouncer_web","nms_backend"],
+  "table_include": {"bouncer_web":["all"],"nms_backend":["all"]},
+  "table_exclude": {},
+  "dms_schema_rename_flag": false,
+  "dms_schema_rename": {},
+  "dms_date_column_datatype_change": true,
+  "dms_decimal_column_datatype_change": false,
+  "dms_float_column_datatype_change": false,
+  "dms_int_column_datatype_change": true,
+  "dms_include_full_lob_mode": false,
+  "dms_include_lob_column": false,
+  "source_endpoint_name": "analytics-database-1-mysql-source",
+  "target_endpoint_name": "analytics-source-data",
+  "etl_glue_job_name": "job-1"
+}

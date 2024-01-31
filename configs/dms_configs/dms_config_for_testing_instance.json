@@ -7,7 +7,7 @@
     "username": "admin",
     "password": "admin12345"
   },
-  "schema_name": {"bouncer_web":"bouncer_web","nms_backend":"nms_backend"},
+  "schema_name": {"bouncer_web_new":"bouncer_web","nms_backend":"nms_backend"},
   "database_name": ["bouncer_web","nms_backend"],
   "table_include": {"bouncer_web":["all"],"nms_backend":["all"]},
   "table_exclude": {},
@@ -21,5 +21,5 @@
   "dms_include_lob_column": false,
   "source_endpoint_name": "analytics-database-1-mysql-source",
   "target_endpoint_name": "analytics-source-data",
-  "etl_glue_job_name": "job-1"
+  "etl_glue_job_name": "can you change me "
 }

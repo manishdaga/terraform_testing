@@ -7,7 +7,7 @@
     "user_name": "admin",
     "password": "admin12345"
   },
-  "schema_name": {"test_datbase":"test_datbase"},
+  "schema_name": {"check":"test_datbase"},
   "database_name": ["test_datbase"],
   "table_include": {"test_datbase":["asn"]},
   "table_exclude": {},
